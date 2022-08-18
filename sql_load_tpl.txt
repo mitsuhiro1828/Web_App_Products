@@ -1,0 +1,7 @@
+load data local
+infile 'C:/xampp/htdocs/insert_products.csv'
+into table
+order.products
+fields
+terminated by ','
+;
